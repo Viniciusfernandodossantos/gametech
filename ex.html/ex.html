@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loja de Games</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Cabeçalho Flutuante -->
+  <header class="floating-header">
+    <nav class="header-nav">
+      <!-- Botão de perfil -->
+      <button class="profile-btn" aria-label="Perfil">
+        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+          <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+          <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
+        </svg>
+      </button>
+
+      <!-- Logo -->
+      <div class="logo">
+        <img src="IMG/LOGO.png" class="logo-img" alt="Logo da loja">
+      </div>
+
+      <!-- Ícones à direita -->
+      <div class="nav-icons">
+        <button class="menu-btn" id="menu-toggle" aria-label="Menu">
+          ☰
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Menu lateral -->
+  <nav class="nav-menu" id="side-menu">
+    <ul>
+      <li><a href="#">Início</a></li>
+      <li><a href="#">Jogos</a></li>
+      <li><a href="#">Promoções</a></li>
+      <li><a href="#">Contato</a></li>
+    </ul>
+  </nav>
+
+  <!-- Barra de Pesquisa -->
+  <div class="search-container">
+    <input type="text" class="search-box" placeholder="Procurar">
+    <button class="search-btn" aria-label="Buscar">
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+      </svg>
+    </button>
+  </div>
+
+  <!-- Categorias -->
+  <div class="categories">
+    <div class="card yellow">
+      <p class="subtitle">Venda ou compre</p>
+      <h2 class="title">JOGOS USADOS</h2>
+      <img src="IMG/MARIO.png" class="card-img">
+      <button class="btn">Saiba mais</button>
+    </div>
+
+    <div class="card purple">
+      <p class="subtitle">Os melhores</p>
+      <h2 class="title">JOGOS FÍSICOS</h2>
+      <img src="IMG/JOGO.png" class="card-img">
+      <button class="btn">Saiba mais</button>
+    </div>
+
+    <div class="card green">
+      <p class="subtitle">Os melhores e revisados</p>
+      <h2 class="title">VIDEOGAMES</h2>
+      <img src="IMG/kindpng_174683 (1).png" class="card-img">
+      <button class="btn">Saiba mais</button>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <p>© 2024 Loja de Games</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
