@@ -64,6 +64,36 @@
   .green {
     background: linear-gradient(135deg, #00c853, #006837);
   }
+  /* Logo maior */
+.logo-grande {
+  height: 1rem !important; /* aumentei para 48px */
+}
+
+/* Campo de busca com lupa à esquerda */
+.input-busca {
+  padding-left: 2.5rem !important;
+  padding-right: 1rem !important;
+}
+
+.lupa-esquerda {
+  left: 0.75rem;
+  top: 0.625rem;
+}
+
+/* Imagens dos cards maiores */
+.card-img {
+  width: 6rem !important; /* aumentei de w-24 para 6rem (96px) */
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+}
+
+/* Alinhamento consistente do botão */
+.card-botao {
+  margin-top: auto;
+  display: inline-block;
+}
+
   
   /* Responsividade Extra (apenas ajuste se necessário) */
   @media (max-width: 500px) {
