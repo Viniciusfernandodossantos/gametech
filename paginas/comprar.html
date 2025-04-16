@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Uncharted - Detalhes do Produto</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-100 text-gray-800">
+
+    <!-- NAVBAR -->
+    <header class="fixed top-4 left-1/2 transform -translate-x-1/2 bg-gray-900 bg-opacity-90 w-[90%] max-w-xl p-4 rounded-xl shadow-md z-50">
+      <nav class="flex justify-between items-center">
+        <button aria-label="Perfil" class="text-white text-xl">
+          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+            <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
+          </svg>
+        </button>
+        <img src="img/LOGO.png" alt="Logo da loja" class="object-contain" width="50px" />
+        <button class="text-white text-2xl" aria-label="Menu">☰</button>
+      </nav>
+    </header>
+
+    <!-- Conteúdo Principal -->
+    <main class="pt-36 px-4 max-w-6xl mx-auto space-y-16">
+
+      <!-- Botão voltar -->
+      <button class="text-sm text-gray-600 flex items-center gap-2">
+        <span class="text-xl">↩</span> Voltar
+      </button>
+
+      <!-- Seção Produto -->
+      <section class="bg-white rounded-xl shadow-lg p-6 flex flex-col lg:flex-row gap-6">
+        
+        <!-- Imagem -->
+        <div class="lg:w-1/2">
+          <img src="https://upload.wikimedia.org/wikipedia/pt/0/0e/Uncharted_4_capa.png" alt="Uncharted 4" class="w-full rounded-lg" />
+        </div>
+
+        <!-- Informações -->
+        <div class="lg:w-1/2 space-y-4">
+          <h2 class="text-2xl font-bold">Uncharted The Nathan Drake Collection Hits</h2>
+          <p class="text-sm text-gray-500">Vendido e entregue por <strong>GAMERST</strong>. Envio imediato.</p>
+          <p class="text-3xl font-bold text-green-700">R$ 59,90</p>
+
+          <button class="w-full bg-green-700 text-white py-2 rounded-md hover:bg-green-800 transition flex items-center justify-center gap-2">
+            COMPRAR <span class="text-xl">🛒</span>
+          </button>
+
+          <p class="text-sm text-gray-700">À vista no PIX com 10% OFF<br>Ou em até 6x de R$ 9,98 s/juros</p>
+
+          <!-- CEP -->
+          <div class="flex flex-col sm:flex-row items-stretch gap-2">
+            <input type="text" placeholder="INSIRA O CEP" class="border border-gray-400 rounded-md px-3 py-2 flex-1" />
+            <button class="bg-gray-800 text-white px-4 py-2 rounded hover:bg-gray-700">OK</button>
+          </div>
+
+          <a href="#" class="text-xs underline text-gray-600">Não sei meu CEP</a>
+
+          <!-- Descrição -->
+          <div class="pt-6">
+            <h3 class="font-semibold text-lg mb-2">Descrição do Produto</h3>
+            <p class="text-sm text-gray-700 leading-relaxed">
+              Esta incrível coletânea reúne os três primeiros jogos da aclamada série UNCHARTED. 
+              Siga as aventuras do caçador de tesouros Nathan Drake em histórias repletas de ação, mistério e exploração. 
+              Gráficos remasterizados, mecânicas melhoradas e uma narrativa cinematográfica envolvente tornam essa coleção essencial para qualquer fã de jogos de aventura.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Produtos Relacionados -->
+      <section class="bg-white rounded-xl shadow-md p-6">
+        <div class="flex justify-between items-center mb-4">
+          <h3 class="text-sm font-semibold text-gray-700">🕹 PRODUTOS RELACIONADOS</h3>
+        </div>
+
+        <div class="flex gap-4 overflow-x-auto pb-2">
+          <img src="https://upload.wikimedia.org/wikipedia/pt/d/d1/Halo_3_capa.png" class="w-28 h-40 object-cover rounded-lg flex-shrink-0" />
+          <img src="https://upload.wikimedia.org/wikipedia/pt/1/15/Grand_Theft_Auto_V_capa.png" class="w-28 h-40 object-cover rounded-lg flex-shrink-0" />
+          <img src="https://upload.wikimedia.org/wikipedia/pt/f/f5/Assassins_Creed_capa.png" class="w-28 h-40 object-cover rounded-lg flex-shrink-0" />
+          <img src="https://upload.wikimedia.org/wikipedia/pt/0/01/Red_Dead_Redemption_II.png" class="w-28 h-40 object-cover rounded-lg flex-shrink-0" />
+        </div>
+      </section>
+
+      <!-- Botão ver mais -->
+      <div class="text-center">
+        <button class="px-4 py-2 bg-white border border-gray-400 rounded-full hover:bg-gray-100">Ver mais</button>
+      </div>
+    </main>
+
+    <!-- RODAPÉ -->
+    <footer class="bg-gray-900 text-white mt-10">
+      <div class="max-w-7xl mx-auto py-8 px-4 text-sm text-gray-400 text-center space-y-2">
+        <p>Home > jogos > videogames > contato > perfil</p>
+        <p>© 2024 Loja de Games — Desenvolvido por <a href="https://github.com/st-vini8" class="text-yellow-400 hover:underline">st_vini8</a></p>
+      </div>
+    </footer>
+  </body>
+</html>
