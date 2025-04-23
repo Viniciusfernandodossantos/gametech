@@ -22,15 +22,24 @@
   </style>
 </head>
 <body class="bg-black text-white font-sans">
+<!-- Botão Voltar -->
+<div class="fixed top-4 left-4 z-50">
+  <a href="index.html" class="text-white bg-gray-800 px-4 py-2 rounded-lg shadow hover:bg-gray-700 transition">
+    ← Voltar
+  </a>
+</div>
 
   <!-- Header -->
   <header class="fixed top-4 left-1/2 transform -translate-x-1/2 bg-gray-900 bg-opacity-90 w-[90%] max-w-xl p-4 rounded-xl shadow-md z-50">
     <nav class="flex justify-between items-center">
       <button aria-label="Perfil" class="text-white text-xl">
-        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
-          <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
-          <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
-        </svg>
+        <a href="perfil.html" aria-label="Perfil" class="text-white text-xl">
+          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+            <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
+          </svg>
+        </a>
+        
       </button>
       <img src="img/LOGO.png" alt="Logo da loja" class="logo-grande object-contain" width="50px" />
 
@@ -98,7 +107,6 @@
         </div>
       </div>
     </aside>
-
     <section class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 flex-1 auto-rows-fr">
 
       <!-- God of War -->
@@ -111,7 +119,7 @@
           <p class="text-sm mb-3">🎮 PS4 / Novo</p>
           <span class="text-lg font-bold block mb-4">R$ 199,90</span>
         </div>
-        <button class="mt-auto bg-white text-black font-semibold px-6 py-2 rounded-full hover:bg-black hover:text-white border border-white transition">Comprar</button>
+        <a href="comprar.html" class="mt-auto bg-white text-black font-semibold px-6 py-2 rounded-full hover:bg-black hover:text-white border border-white transition text-center block">Comprar</a>
       </div>
     
       <!-- Gran Turismo 7 -->
@@ -124,7 +132,7 @@
           <p class="text-sm mb-3">🎮 PS5 / Novo</p>
           <span class="text-lg font-bold block mb-4">R$ 249,90</span>
         </div>
-        <button class="mt-auto bg-white text-black font-semibold px-6 py-2 rounded-full hover:bg-black hover:text-white border border-white transition">Comprar</button>
+        <a href="comprar.html" class="mt-auto bg-white text-black font-semibold px-6 py-2 rounded-full hover:bg-black hover:text-white border border-white transition text-center block">Comprar</a>
       </div>
     
       <!-- GTA V -->
@@ -137,7 +145,7 @@
           <p class="text-sm mb-3">🎮 PS4 / Usado</p>
           <span class="text-lg font-bold block mb-4">R$ 89,90</span>
         </div>
-        <button class="mt-auto bg-white text-black font-semibold px-6 py-2 rounded-full hover:bg-black hover:text-white border border-white transition">Comprar</button>
+        <a href="comprar.html" class="mt-auto bg-white text-black font-semibold px-6 py-2 rounded-full hover:bg-black hover:text-white border border-white transition text-center block">Comprar</a>
       </div>
     
       <!-- Call of Duty MW -->
@@ -150,7 +158,7 @@
           <p class="text-sm mb-3">🟩 Xbox / Novo</p>
           <span class="text-lg font-bold block mb-4">R$ 229,90</span>
         </div>
-        <button class="mt-auto bg-white text-black font-semibold px-6 py-2 rounded-full hover:bg-black hover:text-white border border-white transition">Comprar</button>
+        <a href="comprar.html" class="mt-auto bg-white text-black font-semibold px-6 py-2 rounded-full hover:bg-black hover:text-white border border-white transition text-center block">Comprar</a>
       </div>
     
       <!-- Uncharted 4 -->
@@ -163,7 +171,7 @@
           <p class="text-sm mb-3">🎮 PS4 / Usado</p>
           <span class="text-lg font-bold block mb-4">R$ 69,90</span>
         </div>
-        <button class="mt-auto bg-white text-black font-semibold px-6 py-2 rounded-full hover:bg-black hover:text-white border border-white transition">Comprar</button>
+        <a href="comprar.html" class="mt-auto bg-white text-black font-semibold px-6 py-2 rounded-full hover:bg-black hover:text-white border border-white transition text-center block">Comprar</a>
       </div>
     
       <!-- Spider-Man -->
@@ -176,7 +184,7 @@
           <p class="text-sm mb-3">🎮 PS5 / Novo</p>
           <span class="text-lg font-bold block mb-4">R$ 199,90</span>
         </div>
-        <button class="mt-auto bg-white text-black font-semibold px-6 py-2 rounded-full hover:bg-black hover:text-white border border-white transition">Comprar</button>
+        <a href="comprar.html" class="mt-auto bg-white text-black font-semibold px-6 py-2 rounded-full hover:bg-black hover:text-white border border-white transition text-center block">Comprar</a>
       </div>
     
       <!-- The Last of Us -->
@@ -189,7 +197,7 @@
           <p class="text-sm mb-3">🎮 PS4 / Usado</p>
           <span class="text-lg font-bold block mb-4">R$ 89,90</span>
         </div>
-        <button class="mt-auto bg-white text-black font-semibold px-6 py-2 rounded-full hover:bg-black hover:text-white border border-white transition">Comprar</button>
+        <a href="comprar.html" class="mt-auto bg-white text-black font-semibold px-6 py-2 rounded-full hover:bg-black hover:text-white border border-white transition text-center block">Comprar</a>
       </div>
     
       <!-- Halo Wars -->
@@ -202,10 +210,11 @@
           <p class="text-sm mb-3">🟩 Xbox / Usado</p>
           <span class="text-lg font-bold block mb-4">R$ 59,90</span>
         </div>
-        <button class="mt-auto bg-white text-black font-semibold px-6 py-2 rounded-full hover:bg-black hover:text-white border border-white transition">Comprar</button>
+        <a href="comprar.html" class="mt-auto bg-white text-black font-semibold px-6 py-2 rounded-full hover:bg-black hover:text-white border border-white transition text-center block">Comprar</a>
       </div>
     
     </section>
+    
     
     
     
